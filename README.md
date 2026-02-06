@@ -1,8 +1,10 @@
 # Basic Rules: #
 - If you are going to edit the code, create a new branch and work there so the main code is not disrupted
-- When making a commit, state the specific change that has been made so other people know what it is
+- When making a commit or a pull request, state the specific change that has been made so other people know what it is
+- Be specific about the description - we need to know exactly what has changed and how
 - If you want to, feel free to ask other people to review your code through the Github (they can access your branches)
 - When you are done with all your code, and it has been committed, push the code and then delete the branch that you were working on
+- If you have made a change to the code upload a screenshot of what changed if is UI related or just a generic description to the Discord
 
 # Introduction to Git branches #
 
