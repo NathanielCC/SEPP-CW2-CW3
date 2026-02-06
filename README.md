@@ -1,7 +1,7 @@
 # Basic Rules: #
 - If you are going to edit the code, create a new branch and work there so the main code is not disrupted
 - When making a commit, state the specific change that has been made so other people know what it is
-- If you want to, feel free to ask other people to review your code
+- If you want to, feel free to ask other people to review your code through the Github (they can access your branches)
 - When you are done with all your code, and it has been committed, push the code and then delete the branch that you were working on
 
 # Introduction to Git branches #
