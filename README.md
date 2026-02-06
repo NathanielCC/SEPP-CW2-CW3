@@ -52,7 +52,9 @@ git push --set-upstream origin test_branch
 
 Afterwards, it will provide a link to a pull request like this: https://github.com/NathanielCC/SEPP-CW2-CW3/pull/new/test_branch
 
-Click on it and go and review your code. Afterwards, if there are no issues, click merge to go ahead and add it to the main files.
+Click on it and go and review your code, assign yourself and click merge. Afterwards, if there are no issues, click merge to go ahead and add it to the main files.
+
+Additional notes - if you want someone to review your code, you can select people to review it, but if you are confident enough then just assign yourself and it should be good enough.
 
 ## Deleting obsolete branches ##
 
