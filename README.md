@@ -8,15 +8,25 @@ The main branch you are working on is called **main**. If you are not working on
 
 When other people have updated code, use 
 
-**git switch main** (If you are not on the main branch)
-**git pull origin main**
+```
+git switch main (If you are not on the main branch)
+git pull origin main
+```
 
 To update your code to the current version
 
 To create a working branch, use the following:
 
-**git checkout -b your_branch**
+```
+git checkout -b your_branch
+```
 
 This will directly put you in a new branch with all the pre-existing code
 
 When you are ready to push your code to the main repository, use the following:
+
+```
+git add .
+git commit -m "Add Stripe checkout session creation"
+git push
+```
