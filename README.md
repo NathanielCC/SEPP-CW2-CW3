@@ -6,6 +6,10 @@
 - When you are done with all your code, and it has been committed, push the code and then delete the branch that you were working on
 - If you have made a change to the code upload a screenshot of what changed if is UI related or just a generic description to the Discord
 
+## Introductory Rule ##
+
+Just to make sure that you can edit the code and write pull requests, create a new branch and write something silly in test.txt in the SEPP-CW2-Task-5 File and then make a pull request for it
+
 # Introduction to Git branches #
 
 The main branch you are working on is called ```main```. If you are not working on anything this should be where you are at
