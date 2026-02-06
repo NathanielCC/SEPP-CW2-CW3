@@ -35,7 +35,7 @@ When you are ready to push your code to the main repository, use the following:
 
 ```
 git add .
-git commit -m "Add Stripe checkout session creation"
+git commit -m "Your update change"
 git push
 ```
 
