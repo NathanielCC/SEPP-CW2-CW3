@@ -35,6 +35,7 @@ When you are ready to push your code to the main repository, use the following:
 git add .
 git commit -m "Add Stripe checkout session creation"
 git push
+```
 
 Copy, paste and run the following command, which will automatically create a pull request others can see
 
