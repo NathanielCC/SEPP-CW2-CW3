@@ -46,7 +46,7 @@ git push --set-upstream origin test_branch
 
 Afterwards, it will provide a link to a pull request like this: https://github.com/NathanielCC/SEPP-CW2-CW3/pull/new/test_branch
 
-Click on it and go and review your code. Afterwards, if there are no issues, click to go ahead and add it to the main files.
+Click on it and go and review your code. Afterwards, if there are no issues, click merge to go ahead and add it to the main files.
 
 ## Deleting obsolete branches ##
 
@@ -58,4 +58,17 @@ First make sure you are in the main branch, using the following command:
 git checkout main 
 ```
 
-Then
+Then, use the following command:
+
+```
+git branch -d branch_name
+```
+
+This should get rid of any obsolete branches that aren't being used anymore
+
+## Resolving Conflicts ## 
+
+Refer to this link:
+
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line
+
