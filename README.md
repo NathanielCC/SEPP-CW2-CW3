@@ -64,7 +64,7 @@ First make sure you are in the main branch, using the following command:
 git checkout main 
 ```
 
-Then, use the following command:
+Then after updating the code using ```git pull```, use the following command:
 
 ```
 git branch -d branch_name
