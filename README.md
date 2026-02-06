@@ -1,8 +1,14 @@
 # Basic Rules: #
 - If you are going to edit the code, create a new branch and work there so the main code is not disrupted
-- When making a commit, state the specific change that has been made so other people know what it is
+- When making a commit or a pull request, state the specific change that has been made so other people know what it is
+- Be specific about the description - we need to know exactly what has changed and how
 - If you want to, feel free to ask other people to review your code through the Github (they can access your branches)
 - When you are done with all your code, and it has been committed, push the code and then delete the branch that you were working on
+- If you have made a change to the code upload a screenshot of what changed if is UI related or just a generic description to the Discord
+
+## Introductory Rule ##
+
+Just to make sure that you can edit the code and write pull requests, create a new branch and write something silly in test.txt in the SEPP-CW2-Task-5 File and then make a pull request for it
 
 # Introduction to Git branches #
 
@@ -33,7 +39,7 @@ When you are ready to push your code to the main repository, use the following:
 
 ```
 git add .
-git commit -m "Add Stripe checkout session creation"
+git commit -m "Your update change"
 git push
 ```
 
@@ -46,7 +52,9 @@ git push --set-upstream origin test_branch
 
 Afterwards, it will provide a link to a pull request like this: https://github.com/NathanielCC/SEPP-CW2-CW3/pull/new/test_branch
 
-Click on it and go and review your code. Afterwards, if there are no issues, click merge to go ahead and add it to the main files.
+Click on it and go and review your code, assign yourself and click merge. Afterwards, if there are no issues, click merge to go ahead and add it to the main files.
+
+Additional notes - if you want someone to review your code, you can select people to review it, but if you are confident enough then just assign yourself and it should be good enough.
 
 ## Deleting obsolete branches ##
 
@@ -58,7 +66,7 @@ First make sure you are in the main branch, using the following command:
 git checkout main 
 ```
 
-Then, use the following command:
+Then after updating the code using ```git pull```, use the following command:
 
 ```
 git branch -d branch_name
